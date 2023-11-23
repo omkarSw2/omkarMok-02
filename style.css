@@ -1,0 +1,10 @@
+nav > a {
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+nav {
+  height: 60px;
+  background-color: aqua;
+}

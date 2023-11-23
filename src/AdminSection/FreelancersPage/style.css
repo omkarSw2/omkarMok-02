@@ -1,0 +1,31 @@
+.card {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+}
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 20px;
+}
+.warning-btn {
+  padding: 5px;
+  background-color: yellowgreen;
+  color: black;
+}
+.denger-btn {
+  padding: 5px;
+  background-color: red;
+  color: black;
+}
+.succsess-btn {
+  padding: 5px;
+  background-color: green;
+  color: black;
+}
+*:disabled {
+  background-color: dimgrey;
+  color: linen;
+  opacity: 1;
+}

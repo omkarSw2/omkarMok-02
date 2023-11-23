@@ -1,0 +1,20 @@
+nav > a {
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+nav {
+  height: 60px;
+  background-color: aqua;
+}
+.user-form {
+  display: grid;
+  margin: 10px;
+  padding: 20px;
+  gap: 10px;
+}
+.user-form > input,
+select {
+  padding: 10px;
+}

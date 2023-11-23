@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Freelancers Page</title>
+  </head>
+  <body>
+    <div class="tags">
+      <button onclick="sortByHoureRate()">Sort by hourly rate</button>
+      <select onchange="sortbyProfession()" id="sort-profession">
+        <option value="student" >Student</option>
+        <option value="web_developer">Web Developer</option>
+        <option value="graphic_designer">Graphic Designer</option>
+      </select>
+      <input type="text" id="search-by-name" placeholder="search by name" onchange="searchByName()" />
+    </div>
+    <div class="main" id="main-container"></div>
+  </body>
+  <script src="./Freelancers.js"></script>
+</html>

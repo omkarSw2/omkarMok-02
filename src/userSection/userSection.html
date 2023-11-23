@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>User Section</title>
+  </head>
+  <body>
+    <nav>
+      <a href="../AdminSection/adminSection.html">Admin Section</a>
+      <a href="../userSection/userSection.html">User Section</a>
+    </nav>
+
+    <section>
+      <form action="">
+        <div class="user-form">
+          <input type="text" id="name" placeholder="enter your Name" />
+
+          <input type="text" id="profile" placeholder="enter your Profile" />
+          <input type="email" id="email" placeholder="enter your Email" />
+          <input
+            type="password"
+            id="password"
+            placeholder="enter your Password" />
+          <select id="profession">
+            <option value="student" >Student</option>
+            <option value="web developer">Web Developer</option>
+            <option value="graphic designer">Graphic Designer</option>
+          </select>
+          <input
+            type="text"
+            id="skills"
+            placeholder="Enter the Skills seprated by ,(Html,js,css) " />
+          <input
+            type="number"
+            id="hourly_rate"
+            placeholder="Enter Hourly Rate " />
+          <button type="button" onclick="registerform()">Submit</button>
+        </div>
+      </form>
+    </section>
+  </body>
+  <script src="./userSection.js"></script>
+</html>
