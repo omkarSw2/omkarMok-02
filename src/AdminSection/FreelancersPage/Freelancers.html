@@ -10,11 +10,15 @@
     <div class="tags">
       <button onclick="sortByHoureRate()">Sort by hourly rate</button>
       <select onchange="sortbyProfession()" id="sort-profession">
-        <option value="student" >Student</option>
-        <option value="web_developer">Web Developer</option>
-        <option value="graphic_designer">Graphic Designer</option>
+        <option value="student">Student</option>
+        <option value="web developer">Web Developer</option>
+        <option value="graphic designer">Graphic Designer</option>
       </select>
-      <input type="text" id="search-by-name" placeholder="search by name" onchange="searchByName()" />
+      <input
+        type="text"
+        id="search-by-name"
+        placeholder="search by name"
+        onchange="searchByName()" />
     </div>
     <div class="main" id="main-container"></div>
   </body>
